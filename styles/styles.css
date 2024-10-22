@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap");
-
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
 /* universal styles */
 * {
   box-sizing: border-box;
@@ -631,7 +631,82 @@ th {
   line-height: 24px;
   letter-spacing: 0.3px;
 }
-
+/* Priceing Start */
+.gym-pass{
+    color: #fff;
+    text-align: center;
+    padding-top: 2em;
+}
+.pricing-table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: min(1600px, 100%);
+    margin: auto;
+    padding :12px;
+  }
+  
+  .pricing-card{
+    flex: 1;
+    max-width: 360px;
+    background-color: #fff;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: #2d2d2d;
+    border-radius: 8px;
+  }
+  
+  .pricing-card-header{
+    background-color: #0fbcf9;
+    display: inline-block;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+     
+  }
+  
+   
+  
+  .price{
+    font-size: 70px;
+    color: #0fbcf9;
+    margin: 40px 0;
+    
+  }
+  
+  .price sup, .price span{
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  
+  .pricing-card li{
+    font-size: 16px;
+    padding: 10px 0;
+    text-transform: uppercase;
+  }
+  
+  .order-btn{
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    border: 2px solid #0fbcf9;
+    color: #0fbcf9;
+    padding: 18px 40px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 500;
+   
+  }
+  
+ 
+/* priceing end */
 .footer {
   width: 100%;
   /* height: 489px; */
@@ -662,7 +737,6 @@ th {
   line-height: 120%;
   margin-bottom: 20px;
   font-family: Inter;
-  
 }
 
 .footer-fitness-description {
