@@ -1,0 +1,573 @@
+header {
+  width: 100%;
+  height: auto;
+  padding-left: 20px;
+  overflow: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.nav-title {
+  font-size: 2rem;
+  line-height: 100%;
+}
+
+.nav-list {
+  border: none;
+}
+
+.nav-item {
+  display: none;
+}
+
+.nav-bar-icon {
+  display: block;
+  width: 90%;
+  height: auto;
+  text-align: center;
+}
+
+.nav-item a {
+  font-size: 1rem;
+  line-height: 100%;
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.banner-text-container {
+  width: 100%;
+  height: auto;
+  margin-top: 70px;
+  margin-right: 0;
+  margin-left: 0px;
+}
+
+.banner-text-container h1 {
+  width: 80%;
+  height: auto;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.banner-text-container p {
+  width: 80%;
+  height: auto;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  margin-bottom: 28px;
+}
+
+.banner-btn {
+  display: flex;
+  justify-content: flex-start;
+  gap: 14px;
+}
+
+.join-btn,
+.download-btn {
+  width: 138px;
+  height: 50px;
+  padding: 0;
+  border-radius: 42px;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.download-btn {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #111111;
+  color: rgb(255, 255, 255);
+}
+
+.banner-image-container {
+  max-width: 353px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 48px;
+  /* padding-right: 120px; */
+}
+
+.banner-image {
+  width: 100%;
+  max-width: 353px;
+  height: auto;
+  padding-right: 40px;
+}
+
+.banner-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.div-350 {
+  max-width: 155.74px;
+  height: 72.58px;
+  position: absolute;
+  top: 45%;
+  left: 0%;
+}
+
+.div-350 h4 {
+  font-size: 1.2rem;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+.div-350 p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  text-align: left;
+}
+
+.div-500 {
+  max-width: 145.91px;
+  height: 74.09px;
+  position: absolute;
+  top: 10%;
+  left: 55%;
+}
+
+.div-500 h4 {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 35px;
+}
+
+.div-500 p {
+  font-size: 0.7rem;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.change-habit-section {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.habit-text-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.habit-text-container h2 {
+  max-width: 318px;
+  height: auto;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 100%;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.habit-text-container p {
+  width: 100%;
+  height: auto;
+  font-size: 0.87rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin-bottom: 54px;
+}
+
+.habit-image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 100%;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 6px;
+}
+
+.image-container p {
+  font-size: 0.8rem;
+  line-height: 14px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+.run-extra-mile-section {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.run-extra-mile-container {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.run-extra-mile-container .extra-h2 {
+  width: 90%;
+  height: auto;
+  font-size: 2rem;
+  line-height: 120%;
+  margin-bottom: 12px;
+}
+
+.run-extra-mile-container p {
+  width: 90%;
+  height: auto;
+  font-size: 0.8rem;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+.run-extra-mile-container #join-btn {
+  width: 90%;
+  height: 54px;
+  padding: 0;
+  margin: 24px 0px;
+  border-radius: 42px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.run-extra-mile-image {
+  width: 80%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.run-extra-mile-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.BMI-content {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 55px;
+  margin-bottom: 32px;
+}
+
+.BMI-content h2 {
+  width: 100%;
+  height: auto;
+  font-size: 2rem;
+  line-height: 100%;
+  margin-bottom: 14px;
+}
+
+.BMI-content p {
+  width: 100%;
+  height: auto;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+.BMI-calculator-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.BMI-chart {
+  width: 80%;
+  height: auto;
+  margin-top: 52px;
+}
+
+.BMI-chart h3 {
+  width: 100%;
+  height: auto;
+  font-size: 1rem;
+  line-height: 100%;
+  text-align: left;
+  margin-bottom: 23px;
+}
+
+.BMI-chart .chart-table table {
+  width: 100%;
+  height: auto;
+}
+
+.BMI-chart .chart-table table,
+td,
+th {
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 18px;
+  padding-bottom: 14px;
+}
+
+.BMI-chart .chart-table table th {
+  color: rgb(235, 231, 231);
+  font-family: Inter;
+  font-size: 1rem;
+}
+
+.BMI-chart .chart-table table td {
+  font-size: 0.8rem;
+}
+
+.BMI-calculator {
+  width: 80%;
+  height: auto;
+  margin-top: 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.BMI-calculator h3 {
+  width: 100%;
+  height: auto;
+  font-size: 1rem;
+}
+
+.BMI-calculator p {
+  width: 100%;
+  height: auto;
+  font-size: 0.8rem;
+  margin-bottom: 34px;
+}
+
+.calculate-form input::placeholder,
+.calculate-form select::placeholder {
+  width: 100%;
+  height: auto;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.calculate-form .form1,
+.form-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.calculate-form #weight,
+#height,
+#age,
+#sex {
+  width: 50%;
+  height: auto;
+  padding: 12px 20px;
+  margin: 0px 12px;
+  font-size: 0.8rem;
+}
+
+.calculate-form #activity {
+  width: 93%;
+  padding: 12px 20px;
+  margin: 0px 12px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+#calculate-btn {
+  width: 80%;
+  height: 54px;
+  padding: 0;
+  margin: 34px 0px;
+  border-radius: 42px;
+  font-size: 1.1rem;
+}
+
+.team-section {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 66px;
+}
+
+.team-contents {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.team-contents-title {
+  width: 100%;
+  height: auto;
+  font-size: 2rem;
+  margin-bottom: 14px;
+}
+
+.team-contents-description {
+  width: 100%;
+  height: auto;
+  font-size: 0.8rem;
+}
+
+.team-images {
+  width: 90%;
+  height: auto;
+  padding: 10px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+.team-image {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.team-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  opacity: 85%;
+}
+
+.team-image-title,
+.team-image-description {
+  position: relative;
+  bottom: 25%;
+  left: 5%;
+}
+
+.team-image-title {
+  font-size: 0.95rem;
+}
+
+.team-image-description {
+  font-size: 0.8rem;
+}
+
+.pricing-table {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  text-align: center;
+  justify-content: center;
+  margin-left: 15%;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  margin-top: 66px;
+  border: 1px solid transparent;
+}
+
+.footer-content {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 44px;
+  margin-bottom: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-fitness-content {
+  width: 100%;
+  height: auto;
+}
+
+.footer-fitness-title {
+  width: 90%;
+  height: auto;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.footer-fitness-description {
+  width: 90%;
+  height: auto;
+  font-size: 0.8rem;
+}
+
+.footer-get-started-content {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.get-started-title {
+  font-size: 1.5rem;
+  margin-bottom: 39px;
+}
+
+.get-started-description {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.horizontal-row {
+  width: 80%;
+  height: 0;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  margin: 0 auto;
+}
+
+.footer-description {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 36px;
+  margin-bottom: 57px;
+  font-size: 1.1rem;
+}
