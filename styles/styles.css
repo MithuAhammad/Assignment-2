@@ -227,9 +227,135 @@ body {
   letter-spacing: 1px;
 }
 /*  change-habit-section start */
+
 .change-habit-section {
   width: 90%;
   height: auto;
   margin: 0 auto;
   margin-top: 82px;
+  /* background-color: aliceblue; */
+}
+
+.habit-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.habit-text-container h2 {
+  color: rgb(255, 255, 255);
+  font-size: 2.46rem;
+  font-weight: 900;
+  line-height: 29.12px;
+  margin-bottom: 18px;
+}
+
+.habit-text-container p {
+  max-width: 550px;
+  height: 44px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.82rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin-bottom: 54px;
+}
+
+.habit-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container h4 {
+  color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 29.5px;
+  margin-top: 24.6px;
+  margin-bottom: 6px;
+}
+
+.image-container p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.87rem;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+.image img {
+  border-radius: 50%;
+}
+
+.run-extra-mile-section {
+  width: 90%;
+  height: 371px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  margin: 0 auto;
+  margin-top: 82px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.run-extra-mile-container {
+  width: 443px;
+  height: 290px;
+}
+ 
+.run-extra-mile-container .extra-h2 {
+  color: rgb(204, 192, 192);
+  font-size: 2.46rem;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 12px;
+  /* background-color: aqua; */
+}
+
+.run-extra-mile-container p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.82rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+
+.run-extra-mile-container #join-btn {
+  width: 184px;
+  height: 50px;
+  padding: 13px 33px;
+  margin: 34px 0px;
+  border-radius: 42px;
+  border: none;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.run-extra-mile-image {
+  width: 366px;
+  height: 312px;
+}
+
+.run-extra-mile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 86%;
+  border-radius: 18px;
 }
